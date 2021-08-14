@@ -6,15 +6,21 @@
   <meta name="renderer" content="webkit">
   <meta http-equiv="X-UA-Compatible" content="IE=edge" >
   <link rel="dns-prefetch" href="http://example.com">
-  <title>Hexo</title>
+  <title>JavaScript学习笔记1 | Hexo</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta property="og:type" content="website">
-<meta property="og:title" content="Hexo">
-<meta property="og:url" content="http://example.com/index.html">
+  <meta name="description" content="什么是JavaScript 一种编程语言，它可以在网页上实现复杂的功能，交互等 解释型语言 运行在客户端 面向对象语言  三种方式添加JavaScript 内部的JavaScript &lt;script&gt;Your JavaSript&lt;&#x2F;script&gt;   外部的JavaScript &lt;script src&#x3D;&quot;script.js&quot;&gt;&lt;scri">
+<meta property="og:type" content="article">
+<meta property="og:title" content="JavaScript学习笔记1">
+<meta property="og:url" content="http://example.com/2021/08/05/JavaScript%E5%9F%BA%E7%A1%80/index.html">
 <meta property="og:site_name" content="Hexo">
+<meta property="og:description" content="什么是JavaScript 一种编程语言，它可以在网页上实现复杂的功能，交互等 解释型语言 运行在客户端 面向对象语言  三种方式添加JavaScript 内部的JavaScript &lt;script&gt;Your JavaSript&lt;&#x2F;script&gt;   外部的JavaScript &lt;script src&#x3D;&quot;script.js&quot;&gt;&lt;scri">
 <meta property="og:locale" content="en_US">
+<meta property="og:image" content="https://www.runoob.com/images/pic_htmltree.gif">
+<meta property="article:published_time" content="2021-08-05T03:01:16.000Z">
+<meta property="article:modified_time" content="2021-08-14T08:49:48.462Z">
 <meta property="article:author" content="John Doe">
 <meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://www.runoob.com/images/pic_htmltree.gif">
   
     <link rel="alternative" href="/atom.xml" title="Hexo" type="application/atom+xml">
   
@@ -150,16 +156,14 @@
             <canvas data-colors="#eaeaea" data-sectionHeight="100" data-contentId="js-content" id="myCanvas1" class="anm-canvas"></canvas>
           </div>
           <div id="js-content" class="content-ll">
-            
-  
-    <article id="post-JavaScript基础" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+            <article id="post-JavaScript基础" class="article article-type-post " itemscope itemprop="blogPost">
   <div class="article-inner">
     
       <header class="article-header">
         
   
-    <h1 itemprop="name">
-      <a class="article-title" href="/2021/08/05/JavaScript%E5%9F%BA%E7%A1%80/">JavaScript学习笔记1</a>
+    <h1 class="article-title" itemprop="name">
+      JavaScript学习笔记1
     </h1>
   
 
@@ -201,165 +205,254 @@
 <li><p>使用innerHTML写入到HTML元素</p>
 </li>
 <li><p>使用console.log()写入到浏览器的控制台</p>
-        
-          <a class="article-more-a" href="/2021/08/05/JavaScript%E5%9F%BA%E7%A1%80/#more">more >></a>
-        
-      
-
-      
-    </div>
-    <div class="article-info article-info-index">
-      
-      
-      
-
-      
-        <p class="article-more-link">
-          <a class="article-more-a" href="/2021/08/05/JavaScript%E5%9F%BA%E7%A1%80/">展开全文 >></a>
-        </p>
-      
-
-      
-      <div class="clearfix"></div>
-    </div>
-  </div>
-</article>
-
-<aside class="wrap-side-operation">
-    <div class="mod-side-operation">
-        
-        <div class="jump-container" id="js-jump-container" style="display:none;">
-            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
-                <i class="icon-font icon-back"></i>
-            </a>
-            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
-                <i class="icon-font icon-plane jump-plane"></i>
-            </div>
-        </div>
-        
-        
-    </div>
-</aside>
-
-
-
-
-  
-    <article id="post-CSS基础" class="article article-type-post  article-index" itemscope itemprop="blogPost">
-  <div class="article-inner">
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2021/07/28/CSS%E5%9F%BA%E7%A1%80/">CSS基础</a>
-    </h1>
-  
-
-        
-        <a href="/2021/07/28/CSS%E5%9F%BA%E7%A1%80/" class="archive-article-date">
-  	<time datetime="2021-07-28T03:01:16.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2021-07-28</time>
-</a>
-        
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <h1 id="什么是CSS"><a href="#什么是CSS" class="headerlink" title="什么是CSS"></a>什么是CSS</h1><ul>
-<li>Cascading Stylesheets(层叠样式表)</li>
-<li>不是编程语言</li>
-<li>告诉浏览器如何指定样式、布局等</li>
+<span id="more"></span>
+<h2 id="操作HTML元素"><a href="#操作HTML元素" class="headerlink" title="操作HTML元素"></a>操作HTML元素</h2><p>如需从JavaScript访问某个HTML元素，可以使用</p>
+</li>
+<li><p>document.getElementsByClassName</p>
+</li>
+<li><p>document.getElementsByTagName</p>
+</li>
+<li><p>document.getElementsById</p>
+</li>
 </ul>
-<p>#添加CSS</p>
+<p>并用innerHTML来获取或插入元素<br><br>或者使用</p>
 <ul>
-<li>外部样式表<ul>
-<li>CSS保存在.CSS文件中</li>
-<li>在HTML中使用<code>&lt;link&gt;</code>引用</li>
+<li>document.querySelector()</li>
+<li>document.querySelectorAll()</li>
+</ul>
+<h1 id="JavaScript数据类型"><a href="#JavaScript数据类型" class="headerlink" title="JavaScript数据类型"></a>JavaScript数据类型</h1><h2 id="数字"><a href="#数字" class="headerlink" title="数字"></a>数字</h2><p>可以是整数或者时小数，或者是科学计数(e)</p>
+<ul>
+<li>3.14</li>
+<li>1001</li>
+<li>123e5 </li>
+</ul>
+<h2 id="字符串"><a href="#字符串" class="headerlink" title="字符串"></a>字符串</h2><p>可以使用单引号或双引号</p>
+<ul>
+<li>“John Doe”</li>
+<li>‘John Doe’</li>
+</ul>
+<h2 id="数组"><a href="#数组" class="headerlink" title="数组"></a>数组</h2><ul>
+<li>var cars=new Array();</li>
+<li>var cars=new Array(“Saab”,”Volvo”,”BMW”);</li>
+<li>var cars=[];</li>
+<li>var cars=[“Saab”,”Volvo”,”BMW”];</li>
+</ul>
+<h2 id="JavaScript对象"><a href="#JavaScript对象" class="headerlink" title="JavaScript对象"></a>JavaScript对象</h2><p>对象由花括号分隔。在括号内部，对象的属性以名称和值对的形式来定义，属性由逗号分隔</p>
+<p>var person={firstname:”John”, lastname:”Doe”, id:5566};</p>
+<p>寻址方法</p>
+<ul>
+<li>name=person.lastname;</li>
+<li>name=person[“lastname”];</li>
+</ul>
+<h2 id="声明变量类型"><a href="#声明变量类型" class="headerlink" title="声明变量类型"></a>声明变量类型</h2><p>当你声明新变量时，可以使用关键词”new”来声明其类型</p>
+<ul>
+<li>var carname=new String;</li>
+<li>var x=      new Number;</li>
+<li>var y=      new Boolean;</li>
+<li>var cars=   new Array;</li>
+<li>var person= new Object;</li>
+</ul>
+<h1 id="JavaScript函数"><a href="#JavaScript函数" class="headerlink" title="JavaScript函数"></a>JavaScript函数</h1><ul>
+<li>function myfunction();</li>
+<li>可以带有返回值return</li>
+</ul>
+<h1 id="DOM-简介"><a href="#DOM-简介" class="headerlink" title="DOM 简介"></a>DOM 简介</h1><ul>
+<li>当网页被加载时，浏览器会创建页面的文档对象模型，即Document Object Model</li>
+<li>HTML DOM模型被构造为对象的树</li>
+</ul>
+<p><img src="https://www.runoob.com/images/pic_htmltree.gif" alt="alt text"></p>
+<ul>
+<li>通过可编程的对象模型，JavaScript获得了足够的能力来创建动态的HTML<ul>
+<li>JavaScript能够改变页面中的所有HTML元素</li>
+<li>JavaScript能够改变页面中的所有HTML属性</li>
+<li>JavaScript能够改变页面中的所有CSS样式</li>
+<li>JavaScript能够对页面中的所有事件做出反应</li>
 </ul>
 </li>
-<li>内部样式表<ul>
-<li>不使用外部CSS文件</li>
-<li>将CSS放在HTML<code>&lt;style&gt;</code>里</li>
+</ul>
+<h1 id="DOM-事件"><a href="#DOM-事件" class="headerlink" title="DOM 事件"></a>DOM 事件</h1><p>我们可以在事件发生时执行 JavaScript，比如当用户在 HTML 元素上点击时。</p>
+<p>如需在用户点击某个元素时执行代码，请向一个 HTML 事件属性添加 JavaScript 代码：</p>
+<p>HTML 事件的例子：</p>
+<ul>
+<li><p>当用户点击鼠标时</p>
+</li>
+<li><p>当网页已加载时</p>
+</li>
+<li><p>当图像已加载时</p>
+</li>
+<li><p>当鼠标移动到元素上时</p>
+</li>
+<li><p>当输入字段被改变时</p>
+</li>
+<li><p>当提交 HTML 表单时</p>
+</li>
+<li><p>当用户触发按键时</p>
+  <html>
+  <body>
+  <h1 onclick="this.innerHTML='Ooops!'">点击文本!</h1>
+  </body>
+  </html></li>
+</ul>
+<!--代码
+<!DOCTYPE html>
+<html>
+<body>
+<h1 onclick="this.innerHTML='Ooops!'">点击文本!</h1>
+</body>
+</html> 
+-->
+
+<!--
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+function changetext(id)
+{
+    id.innerHTML="Ooops!";
+}
+</script>
+</head>
+<body>
+<h1 onclick="changetext(this)">点击文本!</h1>
+</body>
+</html>
+-->
+
+<h2 id="HTML事件属性"><a href="#HTML事件属性" class="headerlink" title="HTML事件属性"></a>HTML事件属性</h2><p>如需向HTML元素分配事件，可以使用事件属性</p>
+<p><code>&lt;button onclick=&quot;displayDate()&quot;&gt;点这里&lt;/button&gt;</code><br><br>名为displayDate的函数将在按钮被点击时执行</p>
+<h2 id="使用HTML-DOM分配事件"><a href="#使用HTML-DOM分配事件" class="headerlink" title="使用HTML DOM分配事件"></a>使用HTML DOM分配事件</h2><p><code>&lt;script&gt; document.getElementById(&quot;myBtn&quot;).onclick=function()&#123;displayDate()&#125;; &lt;/script&gt;</code></p>
+<p>名为 displayDate 的函数被分配给 id=”myBtn” 的 HTML 元素。</p>
+<h2 id="onload和onunload事件"><a href="#onload和onunload事件" class="headerlink" title="onload和onunload事件"></a>onload和onunload事件</h2><ul>
+<li><p>onload 和 onunload 事件会在用户进入或离开页面时被触发。</p>
+</li>
+<li><p>onload 事件可用于检测访问者的浏览器类型和浏览器版本，并基于这些信息来加载网页的正确版本。</p>
+</li>
+<li><p>onload 和 onunload 事件可用于处理 cookie。</p>
+</li>
+<li><p><code>&lt;body onload=&quot;checkCookies()&quot;&gt;</code></p>
+</li>
+</ul>
+<h2 id="onchange事件"><a href="#onchange事件" class="headerlink" title="onchange事件"></a>onchange事件</h2><ul>
+<li>onchange 事件常结合对输入字段的验证来使用</li>
+<li><code>&lt;input type=&quot;text&quot; id=&quot;fname&quot; onchange=&quot;upperCase()&quot;&gt;</code></li>
+</ul>
+<h2 id="onmouseover和onmouseout事件"><a href="#onmouseover和onmouseout事件" class="headerlink" title="onmouseover和onmouseout事件"></a>onmouseover和onmouseout事件</h2><p>onmouseover 和 onmouseout 事件可用于在用户的鼠标移至 HTML 元素上方或移出元素时触发函数。</p>
+<pre><code>&lt;html&gt;
+&lt;body&gt;
+
+&lt;div onmouseover=&quot;mOver(this)&quot; onmouseout=&quot;mOut(this)&quot; style=&quot;background-color:#D94A38;width:120px;height:20px;padding:40px;&quot;&gt;Mouse Over Me&lt;/div&gt;
+&lt;script&gt;
+function mOver(obj)&#123;
+    obj.innerHTML=&quot;Thank You&quot;
+&#125;
+function mOut(obj)&#123;
+    obj.innerHTML=&quot;Mouse Over Me&quot;
+&#125;
+&lt;/script&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;
+</code></pre>
+<h1 id="DOM-EventListener"><a href="#DOM-EventListener" class="headerlink" title="DOM EventListener"></a>DOM EventListener</h1><h2 id="addEventListener-方法"><a href="#addEventListener-方法" class="headerlink" title="addEventListener()方法"></a>addEventListener()方法</h2><p>在用户点击按钮时触发监听事件：</p>
+<p><code> document.getElementById(&quot;myBtn&quot;).addEventListener(&quot;click&quot;, displayDate);</code></p>
+<ul>
+<li><p>addEventListener()方法可以向同个元素添加多个事件句柄</p>
+</li>
+<li><p>可以用removeEventListener()方法来移除事件的监听</p>
+</li>
+<li><p>语法：element.addEventListener(event, function, useCapture);</p>
+<ul>
+<li><p>第一个参数是事件的类型 (如 “click” 或 “mousedown”).</p>
+</li>
+<li><p>第二个参数是事件触发后调用的函数。</p>
+</li>
+<li><p>第三个参数是个布尔值用于描述事件是冒泡还是捕获。该参数是可选的。</p>
+</li>
 </ul>
 </li>
-<li>内联样式(不推荐)<ul>
-<li>仅影响一个元素</li>
-<li>在HTML元素的style属性中添加
-        
-          <a class="article-more-a" href="/2021/07/28/CSS%E5%9F%BA%E7%A1%80/#more">more >></a>
-        
-      
-
-      
-    </div>
-    <div class="article-info article-info-index">
-      
-      
-      
-
-      
-        <p class="article-more-link">
-          <a class="article-more-a" href="/2021/07/28/CSS%E5%9F%BA%E7%A1%80/">展开全文 >></a>
-        </p>
-      
-
-      
-      <div class="clearfix"></div>
-    </div>
-  </div>
-</article>
-
-<aside class="wrap-side-operation">
-    <div class="mod-side-operation">
-        
-        <div class="jump-container" id="js-jump-container" style="display:none;">
-            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
-                <i class="icon-font icon-back"></i>
-            </a>
-            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
-                <i class="icon-font icon-plane jump-plane"></i>
-            </div>
-        </div>
-        
-        
-    </div>
-</aside>
-
-
-
-
-  
-    <article id="post-HTML基础" class="article article-type-post  article-index" itemscope itemprop="blogPost">
-  <div class="article-inner">
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2021/07/27/HTML%E5%9F%BA%E7%A1%80/">HTML基础</a>
-    </h1>
-  
-
-        
-        <a href="/2021/07/27/HTML%E5%9F%BA%E7%A1%80/" class="archive-article-date">
-  	<time datetime="2021-07-27T03:01:16.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2021-07-27</time>
-</a>
-        
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <h1 id="什么是HTML"><a href="#什么是HTML" class="headerlink" title="什么是HTML"></a>什么是HTML</h1><ul>
-<li>HyperText Markup Language(超文本标记语言)</li>
-<li>不是编程语言</li>
-<li>告诉浏览器如何构造网页</li>
 </ul>
-<h1 id="HTML声明及注释"><a href="#HTML声明及注释" class="headerlink" title="HTML声明及注释"></a>HTML声明及注释</h1><p>声明： <code>HTML &lt;!DOCTYPE html&gt;</code>   <br><br>注释： <code>&lt;!--  --&gt;</code></p>
-        
-          <a class="article-more-a" href="/2021/07/27/HTML%E5%9F%BA%E7%A1%80/#more">more >></a>
-        
+<h2 id="事件冒泡或事件捕获"><a href="#事件冒泡或事件捕获" class="headerlink" title="事件冒泡或事件捕获"></a>事件冒泡或事件捕获</h2><ul>
+<li>事件传递有两种方式：冒泡与捕获</li>
+<li>在冒泡中，内部元素的事件先触发，然后再触发外部元素，即：p元素的事件再触发，然后会触发div元素的事件</li>
+<li>再捕获中，外部元素的事件会先触发，然后再触发内部元素</li>
+<li>通过指定useCapture来设置传递类型，默认值为false,即冒泡传递，当值为true时，为捕获传递</li>
+</ul>
+<h1 id="DOM元素"><a href="#DOM元素" class="headerlink" title="DOM元素"></a>DOM元素</h1><h2 id="创建新的HTML元素（节点）-appendChild"><a href="#创建新的HTML元素（节点）-appendChild" class="headerlink" title="创建新的HTML元素（节点）- appendChild()"></a>创建新的HTML元素（节点）- appendChild()</h2><ul>
+<li>要创建一个新的HTML元素需要先创建一个元素，然后在已存在的元素中添加它。</li>
+<li>var para=document.createElement(“p”);</li>
+<li>var node=document.createTextNode(“这是一个新的段落”)；</li>
+<li>para.appendChild(node);</li>
+<li>var element=document.getElementById(“div1”);</li>
+<li>element.appendChild(para);</li>
+<li>appendChild()用于在尾部创建元素</li>
+</ul>
+<h2 id="创建新的HTML元素（节点）-insertBefore"><a href="#创建新的HTML元素（节点）-insertBefore" class="headerlink" title="创建新的HTML元素（节点）- insertBefore()"></a>创建新的HTML元素（节点）- insertBefore()</h2><ul>
+<li>用于在开始位置添加新元素</li>
+<li>var para=document.createElement(“p”);</li>
+<li>var node=document.createTextNode(“这是一个新的段落”)</li>
+<li>var element=document.getElementById(“div1”);</li>
+<li>var child=document.getElementById(“p1”);</li>
+<li>element.insertBefore(para,child);</li>
+</ul>
+<h2 id="移除已存在的元素"><a href="#移除已存在的元素" class="headerlink" title="移除已存在的元素"></a>移除已存在的元素</h2><ul>
+<li>要移除一个元素，你需要知道该元素的父元素</li>
+<li>var parent=document.getElementById(“div1”);</li>
+<li>var child=document.getElementById(“p1”);</li>
+<li>parent.removeChild(child);</li>
+</ul>
+<h2 id="替换HTML元素-replaceChild（）"><a href="#替换HTML元素-replaceChild（）" class="headerlink" title="替换HTML元素 - replaceChild（）"></a>替换HTML元素 - replaceChild（）</h2><ul>
+<li>var para=document.createElement(“p”);</li>
+<li>var node=document.createTextNode(“这是一个新的段落”)；</li>
+<li>para.appendChild(node);</li>
+<li>var parent=document.getElementById(“div1”);</li>
+<li>var child=document.getElementById(“p1”);</li>
+<li>parent.replaceChild(para,child);</li>
+</ul>
+<h1 id="JavaScript-HTML-Dom-Collection"><a href="#JavaScript-HTML-Dom-Collection" class="headerlink" title="JavaScript HTML Dom Collection"></a>JavaScript HTML Dom Collection</h1><ul>
+<li>通过getElements来访问对象的集合 </li>
+<li>var x=document.getElementsByTagName(“p”);</li>
+<li>以0为起始位置</li>
+</ul>
+<h2 id="Collection对象的length属性"><a href="#Collection对象的length属性" class="headerlink" title="Collection对象的length属性"></a>Collection对象的length属性</h2><ul>
+<li>通过x.length可以得到对象的数量</li>
+<li>常用于遍历集合中的元素</li>
+<li>for(int i=0;i&lt;x.length;i++){x[i].style.background=”red”;}</li>
+</ul>
+<h2 id="注意"><a href="#注意" class="headerlink" title="注意"></a>注意</h2><ul>
+<li>HTMLCollection不是一个数组</li>
+<li>可以像数组一样，使用索引来获取元素</li>
+</ul>
+<h1 id="NodeList对象"><a href="#NodeList对象" class="headerlink" title="NodeList对象"></a>NodeList对象</h1><ul>
+<li>使用querySelectorAll()来索引对象</li>
+<li>与Collection相似</li>
+<li>NodeList是一个文档节点的集合，HTMLCollection是HTML元素的集合</li>
+<li>Collection可以通过classname,id,或索引来获取，NodeList只能通过索引</li>
+</ul>
+
       
 
+      
+        <div class="page-reward">
+          <a href="javascript:;" class="page-reward-btn tooltip-top">
+            <div class="tooltip tooltip-east">
+            <span class="tooltip-item">
+              赏
+            </span>
+            <span class="tooltip-content">
+              <span class="tooltip-text">
+                <span class="tooltip-inner">
+                  <p class="reward-p"><i class="icon icon-quo-left"></i>谢谢你的奖励O(∩_∩)O哈哈~<i class="icon icon-quo-right"></i></p>
+                  <div class="reward-box">
+                    
+                    
+                  </div>
+                </span>
+              </span>
+            </span>
+          </div>
+          </a>
+        </div>
       
     </div>
     <div class="article-info article-info-index">
@@ -368,16 +461,75 @@
       
 
       
-        <p class="article-more-link">
-          <a class="article-more-a" href="/2021/07/27/HTML%E5%9F%BA%E7%A1%80/">展开全文 >></a>
-        </p>
-      
 
+      
+        
+<div class="share-btn share-icons tooltip-left">
+  <div class="tooltip tooltip-east">
+    <span class="tooltip-item">
+      <a href="javascript:;" class="share-sns share-outer">
+        <i class="icon icon-share"></i>
+      </a>
+    </span>
+    <span class="tooltip-content">
+      <div class="share-wrap">
+        <div class="share-icons">
+          <a class="weibo share-sns" href="javascript:;" data-type="weibo">
+            <i class="icon icon-weibo"></i>
+          </a>
+          <a class="weixin share-sns wxFab" href="javascript:;" data-type="weixin">
+            <i class="icon icon-weixin"></i>
+          </a>
+          <a class="qq share-sns" href="javascript:;" data-type="qq">
+            <i class="icon icon-qq"></i>
+          </a>
+          <a class="douban share-sns" href="javascript:;" data-type="douban">
+            <i class="icon icon-douban"></i>
+          </a>
+          <a class="qzone share-sns" href="javascript:;" data-type="qzone">
+            <i class="icon icon-qzone"></i>
+          </a>
+          <a class="facebook share-sns" href="javascript:;" data-type="facebook">
+            <i class="icon icon-facebook"></i>
+          </a>
+          <a class="twitter share-sns" href="javascript:;" data-type="twitter">
+            <i class="icon icon-twitter"></i>
+          </a>
+          <a class="google share-sns" href="javascript:;" data-type="google">
+            <i class="icon icon-google"></i>
+          </a>
+        </div>
+      </div>
+    </span>
+  </div>
+</div>
+
+<div class="page-modal wx-share js-wx-box">
+    <a class="close js-modal-close" href="javascript:;"><i class="icon icon-close"></i></a>
+    <p>扫一扫，分享到微信</p>
+    <div class="wx-qrcode">
+      <img src="//pan.baidu.com/share/qrcode?url=http://example.com/2021/08/05/JavaScript%E5%9F%BA%E7%A1%80/" alt="微信分享二维码">
+    </div>
+</div>
+
+<div class="mask js-mask"></div>
       
       <div class="clearfix"></div>
     </div>
   </div>
 </article>
+
+  
+<nav id="article-nav">
+  
+  
+    <a href="/2021/07/28/CSS%E5%9F%BA%E7%A1%80/" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title">CSS基础</div>
+      <i class="icon-circle-right"></i>
+    </a>
+  
+</nav>
+
 
 <aside class="wrap-side-operation">
     <div class="mod-side-operation">
@@ -397,228 +549,14 @@
 
 
 
-
   
-    <article id="post-Romance-dawn" class="article article-type-post  article-index" itemscope itemprop="blogPost">
-  <div class="article-inner">
-    
-      <header class="article-header">
-        
   
-    <h1 itemprop="name">
-      <a class="article-title" href="/2021/07/20/Romance-dawn/">Romance dawn</a>
-    </h1>
   
 
-        
-        <a href="/2021/07/20/Romance-dawn/" class="archive-article-date">
-  	<time datetime="2021-07-20T03:01:16.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2021-07-20</time>
-</a>
-        
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <h2 id="第一章"><a href="#第一章" class="headerlink" title="第一章"></a>第一章</h2><p>内容</p>
-<hr>
-<p>##第二章</p>
-<p>内容</p>
-<hr>
-<p>##参考文献<br>wq</p>
-
-      
-
-      
-    </div>
-    <div class="article-info article-info-index">
-      
-      
-      
-
-      
-        <p class="article-more-link">
-          <a class="article-more-a" href="/2021/07/20/Romance-dawn/">展开全文 >></a>
-        </p>
-      
-
-      
-      <div class="clearfix"></div>
-    </div>
-  </div>
-</article>
-
-<aside class="wrap-side-operation">
-    <div class="mod-side-operation">
-        
-        <div class="jump-container" id="js-jump-container" style="display:none;">
-            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
-                <i class="icon-font icon-back"></i>
-            </a>
-            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
-                <i class="icon-font icon-plane jump-plane"></i>
-            </div>
-        </div>
-        
-        
-    </div>
-</aside>
-
-
-
-
-  
-    <article id="post-markdown使用教程" class="article article-type-post  article-index" itemscope itemprop="blogPost">
-  <div class="article-inner">
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2021/07/20/markdown%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B/">Markdown教程</a>
-    </h1>
   
 
-        
-        <a href="/2021/07/20/markdown%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B/" class="archive-article-date">
-  	<time datetime="2021-07-20T03:01:16.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2021-07-20</time>
-</a>
-        
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <h1 id="markdown-标题"><a href="#markdown-标题" class="headerlink" title="markdown 标题"></a>markdown 标题</h1><p>markdown标题有两种格式</p>
-<p>1.使用=和-标记一级和二级标题</p>
-<p>2.使用#号标记，可表示1-6级标题</p>
-<h1 id="markdown段落格式"><a href="#markdown段落格式" class="headerlink" title="markdown段落格式"></a>markdown段落格式</h1><h2 id="markdown字体"><a href="#markdown字体" class="headerlink" title="markdown字体"></a>markdown字体</h2><p>1.<em>斜体文本</em> &emsp;使用* *</p>
-<p>2.<em>斜体文本</em> &emsp;使用_ _</p>
-<p>3.<strong>粗体文本</strong> &emsp; 使用** **</p>
-<p>4.<strong>粗体文本</strong> &emsp;使用__ __</p>
-<p>5.<em><strong>粗斜体文本</strong></em> &emsp;使用*** ***</p>
-<p>6.<em><strong>粗斜体文本</strong></em> &emsp;使用___ ___</p>
-<h2 id="分隔线"><a href="#分隔线" class="headerlink" title="分隔线"></a>分隔线</h2><p>在一行中用三个以上的星号、减号、底线来建立一个分隔线</p>
-<hr>
-<p>行内不能有其他东西，也可以在星号或减号中间插入空格</p>
-<h2 id="删除线"><a href="#删除线" class="headerlink" title="删除线"></a>删除线</h2>
-        
-          <a class="article-more-a" href="/2021/07/20/markdown%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B/#more">more >></a>
-        
-      
-
-      
-    </div>
-    <div class="article-info article-info-index">
-      
-      
-      
-
-      
-        <p class="article-more-link">
-          <a class="article-more-a" href="/2021/07/20/markdown%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B/">展开全文 >></a>
-        </p>
-      
-
-      
-      <div class="clearfix"></div>
-    </div>
-  </div>
-</article>
-
-<aside class="wrap-side-operation">
-    <div class="mod-side-operation">
-        
-        <div class="jump-container" id="js-jump-container" style="display:none;">
-            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
-                <i class="icon-font icon-back"></i>
-            </a>
-            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
-                <i class="icon-font icon-plane jump-plane"></i>
-            </div>
-        </div>
-        
-        
-    </div>
-</aside>
-
-
-
-
-  
-    <article id="post-hello-world" class="article article-type-post  article-index" itemscope itemprop="blogPost">
-  <div class="article-inner">
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2021/07/20/hello-world/">Hello World</a>
-    </h1>
   
 
-        
-        <a href="/2021/07/20/hello-world/" class="archive-article-date">
-  	<time datetime="2021-07-20T02:44:12.707Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2021-07-20</time>
-</a>
-        
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p>Welcome to <a target="_blank" rel="noopener" href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a target="_blank" rel="noopener" href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a target="_blank" rel="noopener" href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a target="_blank" rel="noopener" href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
-
-      
-
-      
-    </div>
-    <div class="article-info article-info-index">
-      
-      
-      
-
-      
-        <p class="article-more-link">
-          <a class="article-more-a" href="/2021/07/20/hello-world/">展开全文 >></a>
-        </p>
-      
-
-      
-      <div class="clearfix"></div>
-    </div>
-  </div>
-</article>
-
-<aside class="wrap-side-operation">
-    <div class="mod-side-operation">
-        
-        <div class="jump-container" id="js-jump-container" style="display:none;">
-            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
-                <i class="icon-font icon-back"></i>
-            </a>
-            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
-                <i class="icon-font icon-plane jump-plane"></i>
-            </div>
-        </div>
-        
-        
-    </div>
-</aside>
-
-
-
-
-  
   
 
 
@@ -641,8 +579,8 @@
     <script>
 	var yiliaConfig = {
 		mathjax: false,
-		isHome: true,
-		isPost: false,
+		isHome: false,
+		isPost: true,
 		isArchive: false,
 		isTag: false,
 		isCategory: false,
